@@ -621,6 +621,8 @@ footer p {
     }
 }
 
+
+
 @media screen and (max-width:700px){
     .grid-generos{
         margin-left: 60px;
@@ -703,6 +705,23 @@ footer p {
         padding: 20px;
     }
     
+}
+
+@media scree and (max-width: 300px){
+    .ingreso-perfil-login{
+        margin-left: 20px;
+    }
+
+    .formulario-contacto div {
+        padding: 5px;
+        margin-left: 25px;
+        margin-right: 80px;
+    }
+
+    .form-perfil {
+        margin-left: 50px;
+        margin-right: 50px;
+    }
 }
 
 
