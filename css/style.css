@@ -32,6 +32,12 @@ header {
 }
 
 
+.navbar-brand {
+    font-size: 40px;
+    font-family: 'Poppins ', sans-serif;
+    color: #2A0800;
+    width: auto;
+}
 
 .navbar-light div {
     background-color: #f7f4f4;
@@ -41,16 +47,11 @@ header {
     padding: 0;
 }
 
+
 .btn{
     border-color: #583101;
 }
 
-
-/* .nav-item a {
-    font-size: 25px;
-    font-family: 'Poppins', sans-serif;
-    color: #b08968;
-} */
 
 .d-flex input {
     border-color: #271703;
@@ -67,21 +68,6 @@ header {
 .inicio{
     width: 40px;
 }
-/* header a{
-    width: auto;
-    font-size: 40px;
-} */
-
-header h1 a {
-    /* font-weight: 700; */
-    font-size: 40px;
-    font-family: 'Poppins', sans-serif;
-    color: #2A0800;
-    /* margin: 15px; */
-    width: auto;
-}
-
-
 
 header nav ul {
     list-style: none;
@@ -100,10 +86,6 @@ header nav ul li a {
     color: #b08968;
     margin: 20px 10px 20px 10px;
 }
-
-
-
-
 
 
 /*---------------MAIN--------------*/
@@ -742,7 +724,7 @@ footer p {
     color: #8b5e34;
 }
 
-.inicio:hover{
+.navbar-brand:hover{
     color: #8b5e34;
 }
 
