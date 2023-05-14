@@ -20,16 +20,16 @@ a {
 
 /*---------------HEADER--------------*/
 
-header {
-    background-color: #f7f4f4;
+/* header {
+    background-color: #d70000;
     position: sticky;
     top: 0;
     padding: auto;
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    align-items: right;
     z-index: 10;
-}
+} */
 
 
 .navbar-brand {
@@ -48,7 +48,7 @@ header {
 }
 
 
-.btn{
+.btn {
     border-color: #583101;
 }
 
@@ -65,7 +65,7 @@ header {
     border-color: #271703;
 }
 
-.inicio{
+.inicio {
     width: 40px;
 }
 
@@ -216,12 +216,12 @@ p {
     margin: 40px;
 }
 
-.carousel-control-icon-width{
+.carousel-control-icon-width {
     width: 200px;
     height: 323px;
-}  
+}
 
-.carousel{
+.carousel {
     width: 200px;
     height: 323px;
 }
@@ -291,20 +291,20 @@ p {
 
 .list-group-item {
     background-color: none;
-    
-    
+
+
 }
 
 .lista-perfil li {
     background-color: rgba(255, 255, 255, 0);
-    
+
 }
 
 .list-group-flush {
     border-top: none;
     margin-bottom: 0;
     margin-right: 400px;
-    
+
 }
 
 .list-group-flush li {
@@ -315,14 +315,15 @@ p {
 
 /* ----------CONTACTANOS-------- */
 
-.contactanos-body{
+.contactanos-body {
     background-image: url(../img/fondo-contactanos.png);
     width: 100%;
     height: auto;
     background-position: center;
     background-size: cover;
 }
-.contactanos-imagen{
+
+.contactanos-imagen {
     background-image: url(../img/header-perfil.jpeg);
     width: 100%;
     height: 280px;
@@ -334,7 +335,7 @@ p {
     margin-right: 200px;
 }
 
-.tit-contactanos h2{
+.tit-contactanos h2 {
     margin: 20px;
     padding: 10px;
 }
@@ -343,7 +344,7 @@ p {
     background-color: none;
 } */
 
-   
+
 
 
 
@@ -355,7 +356,7 @@ p {
     margin-right: 100px;
 }
 
-.btn-light{
+.btn-light {
     background-color: #d49c6650;
     box-shadow: 4px 2px 12px 1px rgba(0, 0, 0, 0.5);
     -webkit-box-shadow: 4px 2px 12px 1px rgba(0, 0, 0, 0.5);
@@ -544,12 +545,13 @@ footer p {
 
 /* -------MEDIAQUERY-------- */
 
-@media screen and (max-width:990px){
-    .grid-generos{
+@media screen and (max-width:990px) {
+    .grid-generos {
         margin-left: 80px;
     }
-    
+
 }
+
 @media screen and (max-width: 950px) {
     .grid-generos {
         grid-template-columns: repeat(2, 1fr);
@@ -565,15 +567,15 @@ footer p {
 @media screen and (max-width: 880px) {
     .list-group-flush {
         margin-right: 300px;
-        
+
     }
-    
-    .list-group-item{
+
+    .list-group-item {
         padding: 30px;
         font-size: 14px;
     }
 
-    .perfil-imagen{
+    .perfil-imagen {
         margin-left: 40px;
     }
 }
@@ -600,8 +602,8 @@ footer p {
     }
 }
 
-@media screen and (max-width: 730px){
-    .ingreso-perfil-login{
+@media screen and (max-width: 730px) {
+    .ingreso-perfil-login {
         margin-left: 40px;
     }
 
@@ -616,15 +618,15 @@ footer p {
         margin-right: 70px;
     }
 
-    .list-group-item{
+    .list-group-item {
         font-size: 10px;
     }
 }
 
 
 
-@media screen and (max-width:700px){
-    .grid-generos{
+@media screen and (max-width:700px) {
+    .grid-generos {
         margin-left: 60px;
     }
 
@@ -633,12 +635,12 @@ footer p {
         padding: 10px;
     }
 
-    
+
 }
 
 @media screen and (max-width: 660px) {
     .list-group-flush {
-        margin-right: 200px;   
+        margin-right: 200px;
     }
 }
 
@@ -648,15 +650,15 @@ footer p {
         padding: 8px;
     }
 
-    .ingreso-perfil-login{
+    .ingreso-perfil-login {
         margin: 40px;
         padding: 30px;
     }
-    
+
 }
 
-@media screen and (max-width:600px){
-    .perfil-imagen{
+@media screen and (max-width:600px) {
+    .perfil-imagen {
         margin-left: 50px;
     }
 }
@@ -674,7 +676,7 @@ footer p {
 }
 
 @media screen and (max-width:580px) {
-    .crear-perfil-titulo{
+    .crear-perfil-titulo {
         font-size: 35px;
     }
 }
@@ -685,30 +687,30 @@ footer p {
         /* font-weight: 700;
         margin-top: 20px; */
     }
-    
+
     .boton-login a {
         padding: 2px;
         border-radius: 7px;
     }
 }
 
-@media screen and (max-width:500px){
-    .grid-generos{
+@media screen and (max-width:500px) {
+    .grid-generos {
         margin-left: 40px;
     }
-    
+
 }
 
 @media screen and (max-width:545px) {
-    .ingreso-perfil-login{
+    .ingreso-perfil-login {
         margin: 40px;
         padding: 20px;
     }
-    
+
 }
 
-@media scree and (max-width: 300px){
-    .ingreso-perfil-login{
+@media scree and (max-width: 300px) {
+    .ingreso-perfil-login {
         margin-left: 20px;
     }
 
@@ -727,25 +729,23 @@ footer p {
 
 /*-------------- PSEUDOCLASES----------- */
 
-.btn:hover{
+.btn:hover {
     background-color: #b08968;
     border-color: #583101;
 }
 
-.btn-outline-success:hover{
+.btn-outline-success:hover {
     border-color: #583101;
 }
 
-.boton:hover{
-    color: #8b5e34;
-}
-.boton-login:hover{
+.boton:hover {
     color: #8b5e34;
 }
 
-.navbar-brand:hover{
+.boton-login:hover {
     color: #8b5e34;
 }
 
-
-
+.navbar-brand:hover {
+    color: #8b5e34;
+}
