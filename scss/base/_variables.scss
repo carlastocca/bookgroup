@@ -1,0 +1,60 @@
+//*VARIABLES
+
+$color-fondo: #f7f4f4;
+$color-titulo-ppal:#2A0800;
+$color-textos: #8b5e34;
+$color-titulos:#583101;
+$color-hover: #8b5e34;
+
+//* LISTAS
+$colors:
+#f7f4f4,
+#F4F2F3,
+#fffefd
+#ede0d4de,
+#b08968,
+#8b5e34,
+#d49c6650,
+#64360c,
+#583101,
+#271703,
+#2717037e
+#241406,
+#2A0800;
+
+$font-size:
+45px,
+40px,
+35px,
+30px,
+25px,
+20px,
+14px,
+10px;
+
+//* EXTENDS
+
+%titles{
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 40px;
+    color: #64360c;
+    padding: 5px;
+}
+
+
+%paragraph{
+    font-family: 'Poppins', sans-serif;
+    font-size: 25px;
+    font-weight: 200;
+    font-style: normal;
+    color: #8b5e34;
+    margin: 10px;
+}
+
+
+
+
+
+
