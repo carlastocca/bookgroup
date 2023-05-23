@@ -25,40 +25,38 @@ main .hero div p, main .bienvenidos p, .lista-perfil li, .login .login-intro p, 
   color: #8b5e34;
   margin: 10px; }
 
-header .navbar {
-  padding: 0;
+header {
   position: sticky;
   top: 0;
   padding: auto;
-  display: flex;
-  justify-content: space-between;
-  align-items: right;
   z-index: 10; }
-  header .navbar div {
-    background-color: #f7f4f4; }
-    header .navbar div a {
-      font-size: 40px;
-      font-family: 'Poppins ', sans-serif;
-      color: #2A0800;
-      width: auto; }
-      header .navbar div a:hover {
-        color: #8b5e34; }
-    header .navbar div div ul li a {
-      font-style: normal;
-      font-size: 25px;
-      font-family: 'Poppins', sans-serif;
-      color: #b08968;
-      margin: 20px 10px 20px 10px; }
-    header .navbar div div .d-flex input {
-      border-color: #271703; }
-    header .navbar div div .d-flex button {
-      font-size: 25px;
-      font-family: 'Poppins', sans-serif;
-      color: #b08968;
-      border-color: #583101; }
-      header .navbar div div .d-flex button:hover {
-        background-color: #b08968;
+  header .navbar {
+    padding: 0; }
+    header .navbar div {
+      background-color: #f7f4f4; }
+      header .navbar div a {
+        font-size: 40px;
+        font-family: 'Poppins ', sans-serif;
+        color: #2A0800;
+        width: auto; }
+        header .navbar div a:hover {
+          color: #8b5e34; }
+      header .navbar div div ul li a {
+        font-style: normal;
+        font-size: 25px;
+        font-family: 'Poppins', sans-serif;
+        color: #b08968;
+        margin: 20px 10px 20px 10px; }
+      header .navbar div div .d-flex input {
+        border-color: #271703; }
+      header .navbar div div .d-flex button {
+        font-size: 25px;
+        font-family: 'Poppins', sans-serif;
+        color: #b08968;
         border-color: #583101; }
+        header .navbar div div .d-flex button:hover {
+          background-color: #b08968;
+          border-color: #583101; }
 
 main {
   background-color: #F4F2F3; }
