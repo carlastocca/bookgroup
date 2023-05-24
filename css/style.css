@@ -285,10 +285,6 @@ main {
     transition: 0.5s; }
     .grid-generos .grid-generos-imagen:hover {
       transform: scale(1.1); }
-    .grid-generos .grid-generos-imagen img {
-      width: 400px;
-      height: 350px;
-      object-fit: cover; }
     .grid-generos .grid-generos-imagen h3 {
       position: absolute;
       bottom: 0;
