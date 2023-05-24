@@ -9,7 +9,7 @@ ul {
 a {
   text-decoration: none; }
 
-main .hero div h2, main .bienvenidos h2, .perfil h2, .login-titulo h2, .crear-perfil-titulo, .contactanos-body .tit-contactanos h2 {
+main .bienvenidos h2, .perfil h2, .login-titulo h2, .crear-perfil-titulo, .contactanos-body .tit-contactanos h2 {
   font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 500;
@@ -72,10 +72,18 @@ main {
     align-items: center;
     justify-content: center; }
     main .hero div {
-      display: inline-block;
+      display: flex;
+      flex-direction: column;
       justify-content: center;
+      align-items: center;
       padding: 8px;
       margin: 10px; }
+      main .hero div h2 {
+        font-family: 'Poppins', sans-serif;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 40px;
+        color: #64360c; }
     main .hero .boton {
       display: inline-block;
       background-color: #ede0d4de;

@@ -14,13 +14,19 @@ main {
         justify-content: center;
 
         div {
-            display: inline-block;
+            display: flex;
+            flex-direction: column;
             justify-content: center;
+            align-items: center;
             padding: 8px;
             margin: 10px;
 
             h2 {
-                @extend %titles;
+                font-family: 'Poppins', sans-serif;
+                font-style: normal;
+                font-weight: 500;
+                font-size: 40px;
+                color: #64360c;
             }
 
             p {
