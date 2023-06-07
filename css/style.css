@@ -98,27 +98,18 @@ main {
       color: #2A0800; }
       main .hero .boton:hover {
         color: #8b5e34; }
-  main .bienvenidos{
+  main .bienvenidos {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 30px;
-  }
-    main .bienvenidos p{
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      align-items: center;
-    }
+    padding: 30px; }
   main .grupos-populares-titulo h2 {
     font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 40px;
-    color: #583101;
-    margin-left: 20px; 
-  }
+    color: #583101; }
   main .grupos-populares-cards {
     display: flex;
     justify-content: space-evenly;
