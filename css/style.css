@@ -98,12 +98,26 @@ main {
       color: #2A0800; }
       main .hero .boton:hover {
         color: #8b5e34; }
+  main .bienvenidos{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 30px;
+  }
+    main .bienvenidos p{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
   main .grupos-populares-titulo h2 {
     font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 40px;
-    color: #583101; }
+    color: #583101;
+    margin-left: 20px; 
+  }
   main .grupos-populares-cards {
     display: flex;
     justify-content: space-evenly;
