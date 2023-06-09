@@ -187,13 +187,23 @@ main {
     flex-direction: column;
     align-items: center;
     justify-content: center; }
-  .login .ingreso-perfil-titulo h3 {
-    margin-left: 10px;
+  .login .login-intro h2{
     font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 500;
-    font-size: 35px;
-    color: #583101; }
+    font-size: 40px;
+    color: #64360c;
+    padding: 20px; 
+    margin-left: 30px;}
+    .login .ingreso-perfil-titulo h3 {
+      margin-left: 10px;
+      font-family: 'Poppins', sans-serif;
+      font-style: normal;
+      font-weight: 500;
+      font-size: 35px;
+      color: #583101;
+      margin-left: 20px;
+      text-align: center; }
   .login .formu-login {
     border-width: 1px;
     border-style: solid;
@@ -368,6 +378,7 @@ footer {
       height: 40px;
       padding: 5px; }
   footer p {
+    text-align: center;
     margin: 5px; }
 
 @media screen and (max-width: 990px) {
