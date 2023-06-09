@@ -84,6 +84,8 @@ main {
         font-weight: 500;
         font-size: 40px;
         color: #64360c; }
+      main .hero div p{
+        text-align: center; }
     main .hero .boton {
       display: inline-block;
       background-color: #ede0d4de;
