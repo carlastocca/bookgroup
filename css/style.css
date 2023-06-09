@@ -103,7 +103,8 @@ main {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 20px; }
+    padding: 20px; 
+    text-align: center;}
     main .bienvenidos p{
       text-align: center; }
   main .grupos-populares-titulo h2 {
@@ -195,12 +196,12 @@ main {
     color: #64360c;
     padding: 20px; 
     margin-left: 30px;}
-    .login .ingreso-perfil-titulo h3 {
-      margin-left: 10px;
-      font-family: 'Poppins', sans-serif;
-      font-style: normal;
-      font-weight: 500;
-      font-size: 35px;
+  .login .ingreso-perfil-titulo h3 {
+    margin-left: 10px;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 35px;
       color: #583101;
       margin-left: 20px;
       text-align: center; }
