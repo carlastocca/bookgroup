@@ -83,7 +83,8 @@ main {
         font-style: normal;
         font-weight: 500;
         font-size: 40px;
-        color: #64360c; }
+        color: #64360c;
+        text-align: center; }
       main .hero div p{
         text-align: center; }
     main .hero .boton {
@@ -480,7 +481,10 @@ footer {
 
 @media screen and (max-width: 500px) {
   .grid-generos {
-    margin-left: 40px; } }
+    margin-left: 40px; }
+  .navbar-brand {
+    font-size: 20px;
+  } }
 
 @media screen and (max-width: 545px) {
   .ingreso-perfil-login {
@@ -497,5 +501,14 @@ footer {
   .form-perfil {
     margin-left: 50px;
     margin-right: 50px; }
-  .formu-login{
-    margin: 10px;} }
+  .ingreso-perfil-login{
+    padding: 0;
+    margin: 0;}
+    .ingreso-perfil-login .formu-login{
+      margin: 5px;
+      margin-left: 5px;
+      padding: 10px;}
+      .ingreso-perfil-login .formu-login div label{
+        font-size: 13px;}
+        .ingreso-perfil-login .boton-login a{
+          font-size: 10px; } }
