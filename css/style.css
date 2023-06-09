@@ -197,7 +197,8 @@ main {
     font-size: 40px;
     color: #64360c;
     padding: 20px; 
-    margin-left: 30px;}
+    margin-left: 30px;
+    text-align: center;}
   .login .ingreso-perfil-titulo h3 {
     margin-left: 10px;
     font-family: 'Poppins', sans-serif;
@@ -495,4 +496,6 @@ footer {
     margin-right: 80px; }
   .form-perfil {
     margin-left: 50px;
-    margin-right: 50px; } }
+    margin-right: 50px; }
+  .ingreso-perfil-login{
+    margin: 10px;} }
