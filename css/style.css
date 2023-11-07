@@ -83,10 +83,7 @@ main {
         font-style: normal;
         font-weight: 500;
         font-size: 40px;
-        color: #64360c;
-        text-align: center; }
-      main .hero div p{
-        text-align: center; }
+        color: #64360c; }
     main .hero .boton {
       display: inline-block;
       background-color: #ede0d4de;
@@ -101,22 +98,12 @@ main {
       color: #2A0800; }
       main .hero .boton:hover {
         color: #8b5e34; }
-  main .bienvenidos{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    padding: 20px; 
-    text-align: center;}
-    main .bienvenidos p{
-      text-align: center; }
   main .grupos-populares-titulo h2 {
     font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 40px;
-    color: #583101; 
-    margin-left: 30px; }
+    color: #583101; }
   main .grupos-populares-cards {
     display: flex;
     justify-content: space-evenly;
@@ -142,7 +129,7 @@ main {
       color: #583101; }
     main .grupos-populares-cards .boton-grupos {
       font-family: 'Poppins', sans-serif;
-      font-size: 18px;
+      font-size: 20px;
       font-weight: 700;
       color: #2A0800;
       text-shadow: 2px 3px 4px rgba(0, 0, 0, 0.35); }
@@ -154,8 +141,7 @@ main {
   width: 100%;
   height: auto;
   background-position: center;
-  background-size: cover; 
-  height: 150vh; }
+  background-size: cover; }
 
 .perfil h2 {
   padding: 30px;
@@ -176,7 +162,7 @@ main {
 
 .lista-perfil li {
   background-color: rgba(255, 255, 255, 0);
-  padding: 20px; }
+  padding: 4px; }
 
 .login {
   background-color: #F4F2F3; }
@@ -191,24 +177,13 @@ main {
     flex-direction: column;
     align-items: center;
     justify-content: center; }
-  .login .login-intro h2{
-    font-family: 'Poppins', sans-serif;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 40px;
-    color: #64360c;
-    padding: 20px; 
-    margin-left: 30px;
-    text-align: center;}
   .login .ingreso-perfil-titulo h3 {
     margin-left: 10px;
     font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 35px;
-      color: #583101;
-      margin-left: 20px;
-      text-align: center; }
+    color: #583101; }
   .login .formu-login {
     border-width: 1px;
     border-style: solid;
@@ -321,9 +296,6 @@ main {
       font-weight: 400;
       margin: 0; }
 
-.body-crear-perfil{
-  height: 130vh;
-}
 .crear-perfil-titulo {
   padding: 30px; }
 
@@ -342,12 +314,11 @@ main {
   color: #64360c; }
 
 .contactanos-body {
-  background-image: url(../img/fondo-perfil.png);
+  background-image: url(../img/fondo-contactanos.png);
   width: 100%;
   height: auto;
   background-position: center;
-  background-size: cover;
-  height: 200vh; }
+  background-size: cover; }
   .contactanos-body .contactanos-imagen {
     background-image: url(../img/header-perfil.jpeg);
     width: 100%;
@@ -355,8 +326,6 @@ main {
   .contactanos-body .tit-contactanos h2 {
     margin: 20px;
     padding: 10px; }
-  .contactanos-body .contactanos p {
-    margin-left: 30px; }
   .contactanos-body .formulario-contacto div {
     padding: 10px;
     margin-left: 50px;
@@ -383,7 +352,6 @@ footer {
       height: 40px;
       padding: 5px; }
   footer p {
-    text-align: center;
     margin: 5px; }
 
 @media screen and (max-width: 990px) {
@@ -481,10 +449,7 @@ footer {
 
 @media screen and (max-width: 500px) {
   .grid-generos {
-    margin-left: 40px; }
-  .navbar-brand {
-    font-size: 20px;
-  } }
+    margin-left: 40px; } }
 
 @media screen and (max-width: 545px) {
   .ingreso-perfil-login {
@@ -500,15 +465,4 @@ footer {
     margin-right: 80px; }
   .form-perfil {
     margin-left: 50px;
-    margin-right: 50px; }
-  .ingreso-perfil-login{
-    padding: 0;
-    margin: 0;}
-    .ingreso-perfil-login .formu-login{
-      margin: 5px;
-      margin-left: 5px;
-      padding: 10px;}
-      .ingreso-perfil-login .formu-login div label{
-        font-size: 13px;}
-        .ingreso-perfil-login .boton-login a{
-          font-size: 10px; } }
+    margin-right: 50px; } }
